@@ -7,7 +7,7 @@ def endTheWord(attempts):
     if 11 <= attempts % 100 <= 14:
         end = "ок"
     elif attempts % 10 == 1:
-        end = "ка"
+        end = "ку"
     elif 2 <= attempts % 10 <= 4:
         end = "ки"
     else:
